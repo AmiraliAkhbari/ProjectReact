@@ -4,6 +4,8 @@ import Footer from './Components/Footer'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import { Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home';
+import BlogDetails from './Pages/Blog/BlogDetalis';
+import Blog from './Pages/Blog';
 
 export default function App() {
   const [isDark , setIsDark] = useState(false);
@@ -32,6 +34,8 @@ export default function App() {
 
       <Routes>
         <Route path='/' element={<><Home/></>}/>
+        <Route path='/blog' element={<Blog/>}/>
+        <Route path='/blog/:id' element={<BlogDetails/>}/>
       </Routes>
 
       <Footer/>

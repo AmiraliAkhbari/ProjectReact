@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "The Future of AI in Everyday Life",
+    "author": "Samantha Reed",
+    "date": "August 10, 2025",
+    "tags": ["Technology"],
+    "excerpt": "Explore how AI is transforming daily routines and personal productivity.",
+    "buttonText": "Discover More",
+    "image": "../public/assets/blog1.png"
+  },
+  {
+    "id": 2,
+    "title": "Top UI/UX Trends for 2025",
+    "author": "Michael Chen",
+    "date": "July 20, 2025",
+    "tags": ["Design"],
+    "excerpt": "Learn about the cutting-edge trends shaping user experiences.",
+    "buttonText": "Discover More",
+    "image": "../public/assets/blog2.png"
+  },
+  {
+    "id": 3,
+    "title": "Why Remote Work Is Here to Stay",
+    "author": "Lena Davis",
+    "date": "June 15, 2025",
+    "tags": ["Work Culture"],
+    "excerpt": "Discover the benefits and challenges of the remote work era.",
+    "buttonText": "Discover More",
+    "image": "../public/assets/blog3.png"
+  },
+  {
+    "id": 4,
+    "title": "Mastering JavaScript in 2025",
+    "author": "Aamir Khan",
+    "date": "May 2, 2025",
+    "tags": ["Programming"],
+    "excerpt": "Boost your JavaScript skills with modern techniques and tools.",
+    "buttonText": "Discover More",
+    "image": "../public/assets/blog4.png"
+  },
+  {
+    "id": 5,
+    "title": "Cybersecurity Threats You Should Know",
+    "author": "Daniel Moore",
+    "date": "April 9, 2025",
+    "tags": ["Security"],
+    "excerpt": "Stay protected against the latest threats in the digital world.",
+    "buttonText": "Discover More",
+    "image": "../public/assets/blog5.png"
+  },
+  {
+    "id": 6,
+    "title": "Sustainable Tech: Building a Green Future",
+    "author": "Nina Patel",
+    "date": "March 18, 2025",
+    "tags": ["Environment"],
+    "excerpt": "Explore how technology is contributing to a sustainable world.",
+    "buttonText": "Discover More",
+    "image": "../public/assets/blog6.png"
+  },
+  {
+    "id": 7,
+    "title": "Building Scalable React Apps",
+    "author": "Zack Young",
+    "date": "February 23, 2025",
+    "tags": ["React"],
+    "excerpt": "Learn strategies to make your React apps scalable and maintainable.",
+    "buttonText": "Discover More",
+    "image": "../public/assets/blog7.png"
+  },
+  {
+    "id": 8,
+    "title": "The Rise of Headless CMS",
+    "author": "Emily Watson",
+    "date": "January 5, 2025",
+    "tags": ["CMS"],
+    "excerpt": "Understand the growing trend of headless content management systems.",
+    "buttonText": "Discover More",
+    "image": "../public/assets/blog8.png"
+  },
+  {
+    "id": 9,
+    "title": "Why Data Security is a Priority for Business Management",
+    "author": "Ethan Caldwell",
+    "date": "September 5, 2025",
+    "tags": ["Trends"],
+    "excerpt": "Understand why data security is a growing concern for organizations.",
+    "buttonText": "Discover More",
+    "image": "../public/assets/blog9.png"
+  },
+  {
+    "id": 10,
+    "title": "Next-Gen Web Design Principles",
+    "author": "Olivia Martin",
+    "date": "September 20, 2025",
+    "tags": ["Design"],
+    "excerpt": "Uncover modern design patterns driving creative web interfaces.",
+    "buttonText": "Discover More",
+    "image": "../public/assets/blog10.png"
+  },
+  {
+    "id": 11,
+    "title": "How Blockchain Is Changing the Game",
+    "author": "Jacob Lee",
+    "date": "October 3, 2025",
+    "tags": ["Blockchain"],
+    "excerpt": "From crypto to smart contracts, see how blockchain is evolving.",
+    "buttonText": "Discover More",
+    "image": "../public/assets/blog11.png"
+  },
+  {
+    "id": 12,
+    "title": "The Importance of Soft Skills in Tech",
+    "author": "Sophia Miles",
+    "date": "October 28, 2025",
+    "tags": ["Career"],
+    "excerpt": "Why communication, empathy, and teamwork are essential in tech roles.",
+    "buttonText": "Discover More",
+    "image": "../public/assets/blog12.png"
+  }
+]
