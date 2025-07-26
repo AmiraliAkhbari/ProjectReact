@@ -61,9 +61,9 @@ export default function Navbar({isDark , toggleTheme}) {
            </button>
            <button
            className="text-black dark:text-white text-2xl lg:hidden"
-           onClick={()=> setIsMobileMenuOpen (!setIsMobileMenuOpen)}
+           onClick={()=> setIsMobileMenuOpen (!isMobileMenuOpen)}
            >
-              <i className={`bi ${setIsMobileMenuOpen ? "bi-x" : "bi-list"}`}></i>
+              <i className={`bi ${isMobileMenuOpen ? "bi-x" : "bi-list"}`}></i>
            </button>
       </div>
     </nav>
