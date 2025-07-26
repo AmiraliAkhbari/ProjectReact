@@ -2,16 +2,20 @@ import React, { useEffect, useState } from "react";
 import blogData from "../../Blogs.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
+import 'swiper/css';
+import 'swiper/css/navigation';
 
 import about from "../../../public/assets/about.png";
 import { Link, Links } from "react-router-dom";
 
 export default function Blog() {
+  const [loading, setLoading] = React.useState(true)
   const [blogs, setBlogs] = useState([]);
-
+   setTimeout(() => setLoading(false), 2000);
   useEffect(() => {
     setBlogs(blogData);
   }, []);
+  if (loading) return <LoadingSpinner />;
   return (
     <>
       <div className="px-[8%] lg:px-[12%] py-10">

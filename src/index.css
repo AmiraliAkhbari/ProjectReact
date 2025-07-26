@@ -217,3 +217,21 @@ body {
         font-size: 2rem;
     }
 }
+
+@media screen and (max-width:1199px) {
+    .blog-img{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:991px) {
+   .mini-slide{
+    height: 400px;
+   }
+}
+
+@media screen and (max-width:767px) {
+   .mini-slide{
+    height: 100%;
+   }
+}
