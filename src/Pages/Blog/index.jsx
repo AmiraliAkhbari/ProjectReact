@@ -7,6 +7,7 @@ import 'swiper/css/navigation';
 
 import about from "../../../public/assets/about.png";
 import { Link, Links } from "react-router-dom";
+import Loading from "../../Components/Loading";
 
 export default function Blog() {
   const [loading, setLoading] = React.useState(true)
@@ -15,7 +16,7 @@ export default function Blog() {
   useEffect(() => {
     setBlogs(blogData);
   }, []);
-  if (loading) return <LoadingSpinner />;
+  if (loading) return <Loading />;
   return (
     <>
       <div className="px-[8%] lg:px-[12%] py-10">
