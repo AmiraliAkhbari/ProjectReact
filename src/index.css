@@ -74,6 +74,9 @@ body {
      opacity: 0;
   animation: Anim-fade-left var(--transition-regular) 1s forwards linear;
 }
+.hero{
+    padding: 70px 40px;
+}
 
 .swiper-button-next:after,
 .swiper-button-prev:after {
@@ -110,6 +113,32 @@ body {
   color: var(--prim-color);
   transform: scale(1.02);
 }
+
+/* Explore Topics */
+ .topic-box img{
+    filter: grayscale(100%);
+    transition: var(--transition-regular);
+ }
+
+ .topic-box img:hover{
+    filter: grayscale(0);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @keyframes Anim-fade-left {
